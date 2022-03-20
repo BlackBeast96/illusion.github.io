@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+rect{
+    stroke-width: 100;
+    stroke-dasharray: 3,4;
+    animation: anime 2s linear infinite;
+}
+@keyframes anime{
+    0%{
+        stroke-dashoffset: 0;
+    }
+    100%{
+        stroke-dashoffset: 100;
+    }
+}
